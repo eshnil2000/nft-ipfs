@@ -1,6 +1,7 @@
 # nft-ipfs
 ```
 //Before deploying, setup
+//create a .env file
 //https://hardhat.org/tutorial/setting-up-the-environment.html
 //nvm install v14.17.5 -g
 //nvm alias default 14.17.5
