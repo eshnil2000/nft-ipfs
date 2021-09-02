@@ -13,7 +13,7 @@ contract MyNFT is ERC721, Ownable {
     // Optional mapping for token URIs
     mapping (uint256 => string) private _tokenURIs;
 
-    constructor() public ERC721("MyNFT3", "NFT3") {}
+    constructor() public ERC721("dappsuniNFT", "DUNI") {}
 
     function _setTokenURI(uint256 tokenId, string memory _tokenURI) internal virtual {
             require(_exists(tokenId), "ERC721Metadata: URI set of nonexistent token");

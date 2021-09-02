@@ -6,7 +6,7 @@ const web3 = createAlchemyWeb3(API_URL)
 const contract = require("../artifacts/contracts/MyNFT.sol/MyNFT.json")
 console.log(JSON.stringify(contract.abi))
 
-const contractAddress = "0xE124f3711D83B120498CF74bC81e7DFB830BCE84"
+const contractAddress = "0x384F03d8355bACE9d95f8b7593b4Dc47BFa8eE0D"
 
 const nftContract = new web3.eth.Contract(contract.abi, contractAddress)
 
